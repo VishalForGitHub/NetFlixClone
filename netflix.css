@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    overflow: auto;
+}
+.separater{
+    background-color: rgb(46, 45, 45);
+    height: 5px;
+    width: 100%;
+}
+.section1{
+    height: 550px;
+    width: 100%;
+    background-size:100% 550px;
+    background-image:url('./bgImage.jpg');
+    background-repeat: no-repeat;
+}
+
+.container{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.65;
+    display: flex;
+}
+
+nav{
+    padding-top: 10px;
+    width: 90%;
+    display: flex;
+    justify-content:flex-end;
+    position: absolute;
+    z-index: 10px;
+}
+.nav-item1 > select{
+     
+     color: rgb(255, 255, 255);
+     padding: 4px 8px 4px 4px;
+     margin-right: 8px;
+     background-color: rgb(0, 0, 0, 0.55);
+     /* border: 1px solid rgb(255, 255, 255); */
+     border-radius:2px;
+}
+
+.nav-item2 > input{
+     background-color: red;
+     color: white;
+     border: 1px solid black;
+     padding: 4px 12px 4px 12px;
+     margin-left: 12px;
+     border-radius: 3px;
+}
+
+.nav-item1 > select:hover,.mainContent > .item4 > button:hover{
+    border: 1px solid white;
+}
+
+.nav-item2 > input:hover,.mainContent > .item4 > input:hover{
+    border: 1px solid white;
+}
+ 
+
+
+
+.mainContent{
+    height: 50vh;
+    width: 60%;
+    justify-self: center;
+    align-self: center;
+    margin-left: 20%;
+    
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    position: absolute;
+    /* background-color: aqua; */
+}
+
+
+.mainContent > .item1{
+     font-weight:900;
+     font-size: 150%;
+}
+
+.mainContent > .item2{
+    font-weight:bold;
+    font-size: 120%;
+    margin-top: 10px;
+}
+
+.mainContent > .item3{
+    font-weight:bold ;
+    font-size: 110%;
+    margin-top: 10px;
+}
+
+
+.mainContent > .item4{
+    margin-top: 20px;
+    
+}
+
+.mainContent > .item4 > input{ 
+    padding: 8px 20px 8px 2px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.mainContent > .item4 button{
+    padding: 8px 8px 8px 8px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+
+
+/* .multipleCotent{
+    height: 320vh;
+    width: 100%;
+    background-color: bisque;
+    position: absolute;
+} */
+
+
+.anotherSection1{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /* margin-top: 5px; */
+    position: relative;
+    z-index: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anotherSection1 > .info{
+    height: 60vh;
+    width: 45%;
+    /* background-color:aqua ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.anotherSection1 > .info > .info1{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.anotherSection1 > .info > .info2{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.video{
+    position: relative;
+}
+.anotherSection1 > .video > video{
+   
+    position: absolute;
+    /* right: 90px; */
+    top: 82px;
+    right: 0;
+    
+}
+
+
+.anotherSection1 > .video > img{
+    width: 91vh;
+    position:relative;
+    z-index: 10;
+    /* right: 90px; */
+    
+}
+
+
+
+
+.anotherSection2{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /* margin-top: 5px; */
+    position: relative;
+    z-index: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anotherSection2 > .info{
+    height: 60vh;
+    width: 45%;
+    /* background-color:aqua ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.anotherSection2 > .info > .info1{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.anotherSection2 > .info > .info2{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.video{
+    position: relative;
+}
+.anotherSection2 > .video > video{
+   
+    position: absolute;
+    /* right: 90px; */
+    top: 82px;
+    right: 0;
+    
+}
+
+
+.anotherSection2 > .video > img{
+    width: 90vh;
+    position:relative;
+    z-index: 10;
+    /* right: 90px; */
+    
+}
+
+.anotherSection3{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /* margin-top: 5px; */
+    position: relative;
+    z-index: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anotherSection3 > .info{
+    height: 60vh;
+    width: 45%;
+    /* background-color:aqua ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.anotherSection3 > .info > .info1{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.anotherSection3 > .info > .info2{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.video{
+    position: relative;
+}
+.anotherSection3 > .video > video{
+   
+    position: absolute;
+    /* right: 90px; */
+    /* top: 0; */
+    right: 103px;
+    bottom: 75px;
+    height: 350px;
+    width: 310px;
+    
+}
+
+
+.anotherSection3 > .video > img{
+    width: 90vh;
+    position:relative;
+    z-index: 10;
+    /* right: 90px; */
+    
+}
